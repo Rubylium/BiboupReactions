@@ -117,6 +117,20 @@ local tbl =
 				{
 					data = 
 					{
+						category = "Self",
+						comparator = 2,
+						conditionType = 2,
+						hpValue = 60,
+						name = "IF HP < 60%",
+						uuid = "de2a7eba-975e-93b6-8e37-324d09e3cfc0",
+						version = 2,
+					},
+					inheritedIndex = 7,
+				},
+				
+				{
+					data = 
+					{
 						actionCDValue = 1,
 						actionID = 7542,
 						category = "Self",
@@ -360,7 +374,7 @@ local tbl =
 						uuid = "e29c6ca7-2f73-6f17-9197-0289b1e871d1",
 						version = 2,
 					},
-					inheritedIndex = 11,
+					inheritedIndex = 25,
 				},
 			},
 			name = "Auto Mitigation",
