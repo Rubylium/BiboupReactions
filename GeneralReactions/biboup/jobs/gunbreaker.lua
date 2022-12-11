@@ -176,6 +176,71 @@ local tbl =
 							{
 								
 								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+								
+								{
+									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
+									true,
+								},
+								
+								{
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									true,
+								},
+								
+								{
+									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+									false,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									true,
+								},
+								
+								{
+									"06f87b29-120c-8a8b-9626-48d84505875a",
+									true,
+								},
+								
+								{
+									"fd4e7cfc-7996-e22d-912a-9f59dc99e474",
+									false,
+								},
+								
+								{
+									"2e129e01-b82f-350b-9bbe-a0f606d83d4b",
+									true,
+								},
+								
+								{
+									"92182b30-9181-bb59-b217-206bb475c947",
+									false,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "5175ce48-7fa8-e167-950f-a531907012f6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 6,
+					},
+				},
+				
+				{
+					position = 7,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
 									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
 									true,
 								},
@@ -215,12 +280,12 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 6,
+						inheritedIndex = 7,
 					},
 				},
 				
 				{
-					position = 8,
+					position = 9,
 					type = "add",
 					value = 
 					{
@@ -245,12 +310,12 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 8,
+						inheritedIndex = 9,
 					},
 				},
 				
 				{
-					position = 9,
+					position = 10,
 					type = "add",
 					value = 
 					{
@@ -285,12 +350,12 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 9,
+						inheritedIndex = 10,
 					},
 				},
 				
 				{
-					position = 9,
+					position = 10,
 					type = "add",
 					value = 
 					{
@@ -335,7 +400,77 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 9,
+						inheritedIndex = 10,
+					},
+				},
+				
+				{
+					position = 10,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"37e90fa8-cc29-1bb1-816c-65b4254e320d",
+									true,
+								},
+								
+								{
+									"f0cedd88-f1f8-2f94-ba84-55f7c6b27864",
+									true,
+								},
+								
+								{
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									true,
+								},
+								
+								{
+									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+									false,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									true,
+								},
+								
+								{
+									"06f87b29-120c-8a8b-9626-48d84505875a",
+									true,
+								},
+								
+								{
+									"fd4e7cfc-7996-e22d-912a-9f59dc99e474",
+									false,
+								},
+								
+								{
+									"2e129e01-b82f-350b-9bbe-a0f606d83d4b",
+									true,
+								},
+								
+								{
+									"92182b30-9181-bb59-b217-206bb475c947",
+									false,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "e1e417ca-2a5b-0423-a2ec-9b858d4d738e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 10,
 					},
 				},
 			},
@@ -500,6 +635,38 @@ local tbl =
 							conditionType = 4,
 							name = "IN CD : Heart of light",
 							uuid = "1a1f8e8c-7cdb-08bb-97e3-8844220e0cf2",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 2684,
+							category = "Self",
+							name = "MISSING BUFF: HoC",
+							uuid = "2e129e01-b82f-350b-9bbe-a0f606d83d4b",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1834,
+							category = "Self",
+							name = "MISSING BUFF: Nebula",
+							uuid = "f0cedd88-f1f8-2f94-ba84-55f7c6b27864",
 							version = 2,
 						},
 					},
