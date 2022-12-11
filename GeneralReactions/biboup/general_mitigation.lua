@@ -11,7 +11,8 @@ local tbl =
 					data = 
 					{
 						aType = "Alert",
-						alertDuration = 3000,
+						alertDuration = 1500,
+						alertScale = 0.68000000715256,
 						alertText = "Auto Mitigation Active",
 						alertVolume = 0,
 						conditions = 
@@ -23,6 +24,28 @@ local tbl =
 							},
 						},
 						uuid = "928d70b9-7c7f-c6aa-9f07-8b9b206354b6",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Alert",
+						alertDuration = 3000,
+						alertPriority = 2,
+						alertText = "Auto TB Active",
+						alertVolume = 0,
+						conditions = 
+						{
+							
+							{
+								"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+								true,
+							},
+						},
+						name = "Alert TB",
+						uuid = "94c965af-cfaf-2553-a21a-cbe49b3f9a3f",
 						version = 2,
 					},
 				},
@@ -173,6 +196,20 @@ local tbl =
 				{
 					data = 
 					{
+						actionCDValue = 87.5,
+						actionID = 7531,
+						category = "Self",
+						conditionType = 4,
+						name = "IN EARLY CD : Rampart",
+						uuid = "d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+						version = 2,
+					},
+					inheritedIndex = 11,
+				},
+				
+				{
+					data = 
+					{
 						category = "Lua",
 						conditionLua = "return BiboupCore.Mitigations.IsInUnavoidableAOE(8)",
 						dequeueIfLuaFalse = true,
@@ -245,6 +282,18 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 5,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return BiboupCore.Mitigations.IsTargetCastingAnyTB()",
+						name = "In any TB",
+						uuid = "edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+						version = 2,
+					},
+					inheritedIndex = 17,
 				},
 				
 				{
@@ -374,11 +423,25 @@ local tbl =
 						uuid = "e29c6ca7-2f73-6f17-9197-0289b1e871d1",
 						version = 2,
 					},
-					inheritedIndex = 25,
+					inheritedIndex = 26,
+				},
+				
+				{
+					data = 
+					{
+						channelCheckTimeRemain = 0.5,
+						channelCheckType = 3,
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						name = "Is channeling anything",
+						uuid = "697ae424-bebc-b384-9c28-22d718f99368",
+						version = 2,
+					},
 				},
 			},
 			name = "Auto Mitigation",
-			timeout = 2,
+			throttleTime = 10,
+			timeout = 1,
 			uuid = "c76c2113-45ce-2787-aebf-de0cbd11bf74",
 			version = 2,
 		},
@@ -563,6 +626,8 @@ local tbl =
 				},
 			},
 			name = "Auto Heal",
+			throttleTime = 10,
+			timeout = 1,
 			uuid = "c18b5971-4e12-8c61-b986-d2722297b075",
 			version = 2,
 		},

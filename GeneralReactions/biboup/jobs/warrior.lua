@@ -4,6 +4,20 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Use Healing",
+			uuid = "3e8523a4-f90d-fdc7-9e93-71696a7ab298",
+			version = 2,
+		},
+		inheritedIndex = 32,
+		inheritedObjectUUID = "154bd976-b80d-c190-b644-5b5565a20b12",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "Auto Mitigation",
 			uuid = "75a68efa-b0f1-ca1b-8db6-3c9eb289509f",
 			version = 2,
@@ -16,6 +30,205 @@ local tbl =
 			{
 				
 				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "5fc979ab-69f0-daa8-bf40-ad0ef6c0acf7",
+							version = 2,
+						},
+						inheritedObjectUUID = "928d70b9-7c7f-c6aa-9f07-8b9b206354b6",
+						inheritedOverwrites = 
+						{
+							alertScale = 0.68000000715256,
+						},
+					},
+				},
+				
+				{
+					position = 2,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "fc677816-e752-dfef-a59f-8787ddcb415d",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 2,
+					},
+				},
+				
+				{
+					position = 3,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
+									true,
+								},
+								
+								{
+									"7b1ff327-4f13-b136-97bf-3653f564636e",
+									false,
+								},
+								
+								{
+									"d00cfa37-d34f-61cc-92c0-090de7ab846d",
+									true,
+								},
+								
+								{
+									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "21448a8b-a016-813b-8ea8-3025c2bfeeb4",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				
+				{
+					position = 4,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+									false,
+								},
+								
+								{
+									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
+									true,
+								},
+								
+								{
+									"d00cfa37-d34f-61cc-92c0-090de7ab846d",
+									true,
+								},
+								
+								{
+									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "30cfbbbf-2d6b-7062-8f1a-f6c6b6a0c3e0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 4,
+					},
+				},
+				
+				{
+					position = 5,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+									true,
+								},
+								
+								{
+									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
+									false,
+								},
+								
+								{
+									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
+									true,
+								},
+								
+								{
+									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
+									true,
+								},
+								
+								{
+									"d00cfa37-d34f-61cc-92c0-090de7ab846d",
+									true,
+								},
+								
+								{
+									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+									true,
+								},
+								
+								{
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "165bdabf-e0e7-7610-87c4-27d6bbbb522a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 5,
+					},
+				},
+				
+				{
+					position = 7,
 					type = "add",
 					value = 
 					{
@@ -45,6 +258,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 7,
 					},
 				},
 				
@@ -100,6 +314,11 @@ local tbl =
 									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
 									true,
 								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
 							uuid = "50cd54e9-f389-4e4d-84bd-adbe0d5ab374",
@@ -110,74 +329,7 @@ local tbl =
 				},
 				
 				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
-									true,
-								},
-								
-								{
-									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
-									true,
-								},
-								
-								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									false,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "ed826376-b54e-94b9-ad19-465137c3ce6c",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b8a5c12d-f304-00f8-9d10-58c15e5b90ef",
-									true,
-								},
-								
-								{
-									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
-									false,
-								},
-								
-								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									false,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							name = "Variable Blood 80% HP",
-							uuid = "6621ee12-6609-2483-bdc4-596eac159b37",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				
-				{
-					position = 7,
+					position = 10,
 					type = "add",
 					value = 
 					{
@@ -221,18 +373,23 @@ local tbl =
 									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
 									false,
 								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
 							uuid = "3cf98459-be3f-d355-ae25-b534678338fd",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 7,
+						inheritedIndex = 10,
 					},
 				},
 				
 				{
-					position = 8,
+					position = 11,
 					type = "add",
 					value = 
 					{
@@ -261,13 +418,95 @@ local tbl =
 									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
 									false,
 								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
 							uuid = "49f65e92-f2eb-5bcc-8c26-29284dcf642e",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 8,
+						inheritedIndex = 11,
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
+									true,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									true,
+								},
+								
+								{
+									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+									false,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "ed826376-b54e-94b9-ad19-465137c3ce6c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"b8a5c12d-f304-00f8-9d10-58c15e5b90ef",
+									true,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									false,
+								},
+								
+								{
+									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+									false,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							name = "Variable Blood 80% HP",
+							uuid = "6621ee12-6609-2483-bdc4-596eac159b37",
+							variableTogglesType = 3,
+							version = 2,
+						},
 					},
 				},
 				
@@ -295,6 +534,11 @@ local tbl =
 									"de2a7eba-975e-93b6-8e37-324d09e3cfc0",
 									true,
 								},
+								
+								{
+									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
+									false,
+								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
 							name = "Variable Equi 60HP",
@@ -307,23 +551,6 @@ local tbl =
 			},
 			conditions = 
 			{
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 7542,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Bloodbath",
-							uuid = "a45c9d80-0bb6-15bc-b74b-b7de88cc8837",
-							version = 2,
-						},
-					},
-				},
 				
 				{
 					position = 28,
@@ -345,6 +572,42 @@ local tbl =
 				},
 				
 				{
+					position = 31,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 40,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Thrill",
+							uuid = "070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+							version = 2,
+						},
+						inheritedIndex = 31,
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7542,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Bloodbath",
+							uuid = "a45c9d80-0bb6-15bc-b74b-b7de88cc8837",
+							version = 2,
+						},
+					},
+				},
+				
+				{
 					type = "add",
 					value = 
 					{
@@ -362,6 +625,44 @@ local tbl =
 				},
 				
 				{
+					position = 34,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 44,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Vengeance",
+							uuid = "099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
+							version = 2,
+						},
+						inheritedIndex = 34,
+					},
+				},
+				
+				{
+					position = 35,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 116,
+							actionID = 44,
+							category = "Self",
+							conditionType = 4,
+							name = "IN EARLY CD : Vengeance",
+							uuid = "7b1ff327-4f13-b136-97bf-3653f564636e",
+							version = 2,
+						},
+						inheritedIndex = 35,
+					},
+				},
+				
+				{
 					type = "add",
 					value = 
 					{
@@ -375,25 +676,6 @@ local tbl =
 							uuid = "0835b6ba-33f9-05bf-80a8-e21d7c1d2f94",
 							version = 2,
 						},
-					},
-				},
-				
-				{
-					position = 31,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 40,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Thrill",
-							uuid = "070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
-							version = 2,
-						},
-						inheritedIndex = 31,
 					},
 				},
 				
@@ -429,22 +711,24 @@ local tbl =
 						},
 					},
 				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 912,
+							category = "Self",
+							name = "MISSING BUFF: Vengeance",
+							uuid = "d00cfa37-d34f-61cc-92c0-090de7ab846d",
+							version = 2,
+						},
+					},
+				},
 			},
 			throttleTime = 1,
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Auto Heal",
-			uuid = "10cce2a9-cc7a-2d0f-a193-73b2ed089ebf",
-			version = 2,
-		},
-		inheritedObjectUUID = "c18b5971-4e12-8c61-b986-d2722297b075",
-		inheritedOverwrites = 
-		{
-			enabled = false,
 		},
 	}, 
 	inheritedProfiles = 
