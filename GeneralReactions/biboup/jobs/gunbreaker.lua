@@ -151,12 +151,12 @@ local tbl =
 								},
 								
 								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
+									"92182b30-9181-bb59-b217-206bb475c947",
 									false,
 								},
 							},
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "55c6c186-9770-5111-befb-afc2bc3071a5",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "5175ce48-7fa8-e167-950f-a531907012f6",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -202,26 +202,21 @@ local tbl =
 								
 								{
 									"06f87b29-120c-8a8b-9626-48d84505875a",
-									true,
-								},
-								
-								{
-									"fd4e7cfc-7996-e22d-912a-9f59dc99e474",
 									false,
-								},
-								
-								{
-									"2e129e01-b82f-350b-9bbe-a0f606d83d4b",
-									true,
 								},
 								
 								{
 									"92182b30-9181-bb59-b217-206bb475c947",
-									false,
+									true,
+								},
+								
+								{
+									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
+									true,
 								},
 							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "5175ce48-7fa8-e167-950f-a531907012f6",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "55c6c186-9770-5111-befb-afc2bc3071a5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -355,57 +350,7 @@ local tbl =
 				},
 				
 				{
-					position = 10,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
-									true,
-								},
-								
-								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
-									true,
-								},
-								
-								{
-									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
-									false,
-								},
-								
-								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
-									false,
-								},
-								
-								{
-									"37e90fa8-cc29-1bb1-816c-65b4254e320d",
-									true,
-								},
-								
-								{
-									"f613dac9-d303-7aac-97a6-f443239a5ec8",
-									false,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "f3dc906b-0757-1bf5-8909-2745ce353be7",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 10,
-					},
-				},
-				
-				{
-					position = 10,
+					position = 11,
 					type = "add",
 					value = 
 					{
@@ -446,27 +391,72 @@ local tbl =
 								},
 								
 								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
-									true,
-								},
-								
-								{
-									"fd4e7cfc-7996-e22d-912a-9f59dc99e474",
-									false,
-								},
-								
-								{
-									"2e129e01-b82f-350b-9bbe-a0f606d83d4b",
-									true,
-								},
-								
-								{
 									"92182b30-9181-bb59-b217-206bb475c947",
 									false,
 								},
 							},
 							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
 							uuid = "e1e417ca-2a5b-0423-a2ec-9b858d4d738e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 11,
+					},
+				},
+				
+				{
+					position = 10,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									true,
+								},
+								
+								{
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									true,
+								},
+								
+								{
+									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+									false,
+								},
+								
+								{
+									"06f87b29-120c-8a8b-9626-48d84505875a",
+									false,
+								},
+								
+								{
+									"37e90fa8-cc29-1bb1-816c-65b4254e320d",
+									true,
+								},
+								
+								{
+									"f613dac9-d303-7aac-97a6-f443239a5ec8",
+									false,
+								},
+								
+								{
+									"92182b30-9181-bb59-b217-206bb475c947",
+									true,
+								},
+								
+								{
+									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "f3dc906b-0757-1bf5-8909-2745ce353be7",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -667,6 +657,22 @@ local tbl =
 							category = "Self",
 							name = "MISSING BUFF: Nebula",
 							uuid = "f0cedd88-f1f8-2f94-ba84-55f7c6b27864",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1832,
+							category = "Self",
+							name = "MISSING BUFF: Camouflage",
+							uuid = "44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
 							version = 2,
 						},
 					},
