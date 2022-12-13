@@ -94,12 +94,7 @@ local tbl =
 								},
 								
 								{
-									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
-									true,
-								},
-								
-								{
-									"7b1ff327-4f13-b136-97bf-3653f564636e",
+									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
 									false,
 								},
 								
@@ -109,12 +104,17 @@ local tbl =
 								},
 								
 								{
-									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+									"7b1ff327-4f13-b136-97bf-3653f564636e",
+									false,
+								},
+								
+								{
+									"d3a8b771-387a-5bc6-a11a-1cc67059d9ff",
 									false,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "21448a8b-a016-813b-8ea8-3025c2bfeeb4",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "30cfbbbf-2d6b-7062-8f1a-f6c6b6a0c3e0",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -139,13 +139,8 @@ local tbl =
 								},
 								
 								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+									"7b1ff327-4f13-b136-97bf-3653f564636e",
 									false,
-								},
-								
-								{
-									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
-									true,
 								},
 								
 								{
@@ -155,11 +150,11 @@ local tbl =
 								
 								{
 									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
-									true,
+									false,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "30cfbbbf-2d6b-7062-8f1a-f6c6b6a0c3e0",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "21448a8b-a016-813b-8ea8-3025c2bfeeb4",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -184,18 +179,8 @@ local tbl =
 								},
 								
 								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									true,
-								},
-								
-								{
 									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
 									false,
-								},
-								
-								{
-									"099e39b2-1b8e-c4a4-b18e-ea07f97ceb4c",
-									true,
 								},
 								
 								{
@@ -209,12 +194,12 @@ local tbl =
 								},
 								
 								{
-									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
-									true,
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									false,
 								},
 								
 								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									"d3a8b771-387a-5bc6-a11a-1cc67059d9ff",
 									false,
 								},
 							},
@@ -340,110 +325,6 @@ local tbl =
 							{
 								
 								{
-									"b8a5c12d-f304-00f8-9d10-58c15e5b90ef",
-									true,
-								},
-								
-								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
-									true,
-								},
-								
-								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									true,
-								},
-								
-								{
-									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
-									true,
-								},
-								
-								{
-									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
-									true,
-								},
-								
-								{
-									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
-									false,
-								},
-								
-								{
-									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
-									false,
-								},
-								
-								{
-									"697ae424-bebc-b384-9c28-22d718f99368",
-									false,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "3cf98459-be3f-d355-ae25-b534678338fd",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 10,
-					},
-				},
-				
-				{
-					position = 11,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"3de512ce-fb03-c17e-8dce-96b1e9ead537",
-									false,
-								},
-								
-								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									true,
-								},
-								
-								{
-									"089a9449-1a27-6289-99e0-e151c69d5adc",
-									true,
-								},
-								
-								{
-									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
-									false,
-								},
-								
-								{
-									"697ae424-bebc-b384-9c28-22d718f99368",
-									false,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
-							uuid = "49f65e92-f2eb-5bcc-8c26-29284dcf642e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 11,
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
 									true,
 								},
@@ -468,10 +349,12 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 10,
 					},
 				},
 				
 				{
+					position = 11,
 					type = "add",
 					value = 
 					{
@@ -507,6 +390,107 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 11,
+					},
+				},
+				
+				{
+					position = 12,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"b8a5c12d-f304-00f8-9d10-58c15e5b90ef",
+									true,
+								},
+								
+								{
+									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
+									true,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									true,
+								},
+								
+								{
+									"070108a0-28d8-72dd-b0f4-d1cf316e9c9b",
+									false,
+								},
+								
+								{
+									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
+									false,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+								
+								{
+									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "3cf98459-be3f-d355-ae25-b534678338fd",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 12,
+					},
+				},
+				
+				{
+					position = 13,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"3de512ce-fb03-c17e-8dce-96b1e9ead537",
+									false,
+								},
+								
+								{
+									"089a9449-1a27-6289-99e0-e151c69d5adc",
+									true,
+								},
+								
+								{
+									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
+									false,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+								
+								{
+									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "49f65e92-f2eb-5bcc-8c26-29284dcf642e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 13,
 					},
 				},
 				
@@ -519,11 +503,6 @@ local tbl =
 							aType = "Variable",
 							conditions = 
 							{
-								
-								{
-									"f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-									false,
-								},
 								
 								{
 									"3de512ce-fb03-c17e-8dce-96b1e9ead537",
@@ -650,7 +629,7 @@ local tbl =
 					{
 						data = 
 						{
-							actionCDValue = 116,
+							actionCDValue = 114,
 							actionID = 44,
 							category = "Self",
 							conditionType = 4,
@@ -725,6 +704,25 @@ local tbl =
 							uuid = "d00cfa37-d34f-61cc-92c0-090de7ab846d",
 							version = 2,
 						},
+					},
+				},
+				
+				{
+					position = 31,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 84,
+							actionID = 40,
+							category = "Self",
+							conditionType = 4,
+							name = "IN EARLY CD : Thrill",
+							uuid = "d3a8b771-387a-5bc6-a11a-1cc67059d9ff",
+							version = 2,
+						},
+						inheritedIndex = 31,
 					},
 				},
 			},
