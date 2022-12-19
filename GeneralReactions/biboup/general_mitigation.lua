@@ -56,6 +56,31 @@ local tbl =
 				{
 					data = 
 					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"f13bcb8f-1956-0702-817a-c775cc89da75",
+								true,
+							},
+							
+							{
+								"54e8229d-9ae2-8940-b857-8124cf25c863",
+								true,
+							},
+						},
+						matchAnyBuff = true,
+						name = "Should run reaction",
+						uuid = "cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
 						category = "Self",
 						comparator = 2,
 						conditionType = 2,
@@ -437,6 +462,30 @@ local tbl =
 						uuid = "697ae424-bebc-b384-9c28-22d718f99368",
 						version = 2,
 					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.assistCallback()",
+						dequeueIfLuaFalse = true,
+						name = "bot is running",
+						uuid = "54e8229d-9ae2-8940-b857-8124cf25c863",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 7,
+						uuid = "f13bcb8f-1956-0702-817a-c775cc89da75",
+						version = 2,
+					},
+					inheritedIndex = 3,
 				},
 			},
 			name = "Auto Mitigation",

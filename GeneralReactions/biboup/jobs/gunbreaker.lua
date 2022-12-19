@@ -26,6 +26,11 @@ local tbl =
 							{
 								
 								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
+								
+								{
 									"15d50be2-bcc6-581f-ab2a-0225ac54b301",
 									false,
 								},
@@ -61,6 +66,11 @@ local tbl =
 							{
 								
 								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
+								
+								{
 									"1a1f8e8c-7cdb-08bb-97e3-8844220e0cf2",
 									false,
 								},
@@ -91,6 +101,66 @@ local tbl =
 							{
 								
 								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+								
+								{
+									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
+									true,
+								},
+								
+								{
+									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
+									false,
+								},
+								
+								{
+									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
+									true,
+								},
+								
+								{
+									"06f87b29-120c-8a8b-9626-48d84505875a",
+									false,
+								},
+								
+								{
+									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "55c6c186-9770-5111-befb-afc2bc3071a5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 4,
+					},
+				},
+				
+				{
+					position = 5,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
+								
+								{
 									"697ae424-bebc-b384-9c28-22d718f99368",
 									false,
 								},
@@ -110,12 +180,12 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 4,
+						inheritedIndex = 5,
 					},
 				},
 				
 				{
-					position = 5,
+					position = 6,
 					type = "add",
 					value = 
 					{
@@ -124,6 +194,11 @@ local tbl =
 							aType = "Variable",
 							conditions = 
 							{
+								
+								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
 								
 								{
 									"697ae424-bebc-b384-9c28-22d718f99368",
@@ -160,66 +235,6 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 5,
-					},
-				},
-				
-				{
-					position = 6,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"697ae424-bebc-b384-9c28-22d718f99368",
-									false,
-								},
-								
-								{
-									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
-									true,
-								},
-								
-								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
-									true,
-								},
-								
-								{
-									"d0bf566e-1366-8eb1-ba96-2f3125cbb61b",
-									false,
-								},
-								
-								{
-									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
-									true,
-								},
-								
-								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
-									false,
-								},
-								
-								{
-									"92182b30-9181-bb59-b217-206bb475c947",
-									true,
-								},
-								
-								{
-									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "55c6c186-9770-5111-befb-afc2bc3071a5",
-							variableTogglesType = 3,
-							version = 2,
-						},
 						inheritedIndex = 6,
 					},
 				},
@@ -236,12 +251,12 @@ local tbl =
 							{
 								
 								{
-									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
 									true,
 								},
 								
 								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
 									true,
 								},
 								
@@ -253,16 +268,6 @@ local tbl =
 								{
 									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
 									true,
-								},
-								
-								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
-									true,
-								},
-								
-								{
-									"fd4e7cfc-7996-e22d-912a-9f59dc99e474",
-									false,
 								},
 								
 								{
@@ -289,6 +294,11 @@ local tbl =
 							aType = "Variable",
 							conditions = 
 							{
+								
+								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
 								
 								{
 									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
@@ -319,6 +329,11 @@ local tbl =
 							aType = "Variable",
 							conditions = 
 							{
+								
+								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
 								
 								{
 									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
@@ -361,6 +376,16 @@ local tbl =
 							{
 								
 								{
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									true,
+								},
+								
+								{
+									"92182b30-9181-bb59-b217-206bb475c947",
+									false,
+								},
+								
+								{
 									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
 									true,
 								},
@@ -389,11 +414,6 @@ local tbl =
 									"e29c6ca7-2f73-6f17-9197-0289b1e871d1",
 									true,
 								},
-								
-								{
-									"92182b30-9181-bb59-b217-206bb475c947",
-									false,
-								},
 							},
 							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
 							uuid = "e1e417ca-2a5b-0423-a2ec-9b858d4d738e",
@@ -405,7 +425,7 @@ local tbl =
 				},
 				
 				{
-					position = 10,
+					position = 12,
 					type = "add",
 					value = 
 					{
@@ -416,12 +436,12 @@ local tbl =
 							{
 								
 								{
-									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
+									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
 									true,
 								},
 								
 								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									"edcb019e-1449-5ebb-91ea-9d6b4750b3af",
 									true,
 								},
 								
@@ -431,28 +451,18 @@ local tbl =
 								},
 								
 								{
-									"06f87b29-120c-8a8b-9626-48d84505875a",
-									false,
-								},
-								
-								{
-									"37e90fa8-cc29-1bb1-816c-65b4254e320d",
-									true,
-								},
-								
-								{
 									"f613dac9-d303-7aac-97a6-f443239a5ec8",
 									false,
 								},
 								
 								{
-									"92182b30-9181-bb59-b217-206bb475c947",
+									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
 									true,
 								},
 								
 								{
-									"44d4d5b2-8b62-2936-87bc-87e1733ac3ed",
-									true,
+									"06f87b29-120c-8a8b-9626-48d84505875a",
+									false,
 								},
 							},
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
@@ -460,7 +470,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 10,
+						inheritedIndex = 12,
 					},
 				},
 			},
@@ -487,23 +497,6 @@ local tbl =
 				},
 				
 				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 0.5,
-							actionID = 16151,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Aurora",
-							uuid = "f3d45b0b-09c9-1102-8ab9-22e077531fbe",
-							version = 2,
-						},
-					},
-				},
-				
-				{
 					position = 32,
 					type = "add",
 					value = 
@@ -519,23 +512,6 @@ local tbl =
 							version = 2,
 						},
 						inheritedIndex = 32,
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 16140,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Camouflage",
-							uuid = "92182b30-9181-bb59-b217-206bb475c947",
-							version = 2,
-						},
 					},
 				},
 				
@@ -578,23 +554,6 @@ local tbl =
 				},
 				
 				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 25758,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Heart of corundum",
-							uuid = "06f87b29-120c-8a8b-9626-48d84505875a",
-							version = 2,
-						},
-					},
-				},
-				
-				{
 					position = 37,
 					type = "add",
 					value = 
@@ -610,6 +569,57 @@ local tbl =
 							version = 2,
 						},
 						inheritedIndex = 37,
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 0.5,
+							actionID = 16151,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Aurora",
+							uuid = "f3d45b0b-09c9-1102-8ab9-22e077531fbe",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 16140,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Camouflage",
+							uuid = "92182b30-9181-bb59-b217-206bb475c947",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25758,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Heart of corundum",
+							uuid = "06f87b29-120c-8a8b-9626-48d84505875a",
+							version = 2,
+						},
 					},
 				},
 				
@@ -678,6 +688,7 @@ local tbl =
 					},
 				},
 			},
+			throttleTime = 0,
 		},
 	}, 
 	inheritedProfiles = 

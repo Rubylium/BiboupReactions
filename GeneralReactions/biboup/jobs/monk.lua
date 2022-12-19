@@ -22,7 +22,7 @@ local tbl =
 			uuid = "04b4bcbd-6f39-41d6-8911-e3be352f7618",
 			version = 2,
 		},
-		inheritedIndex = 36,
+		inheritedIndex = 35,
 		inheritedObjectUUID = "c76c2113-45ce-2787-aebf-de0cbd11bf74",
 		inheritedOverwrites = 
 		{
@@ -146,6 +146,7 @@ local tbl =
 						{
 							buffCheckType = 2,
 							buffID = 1179,
+							category = "Self",
 							name = "MISSING BUFF: Riddle",
 							uuid = "4bb8b776-da56-8d50-89aa-54bc4f25bdfe",
 							version = 2,
@@ -153,6 +154,22 @@ local tbl =
 					},
 				},
 			},
+			throttleTime = 0,
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Auto Heal",
+			uuid = "233f7cc3-d359-82c7-a10d-914e754e979a",
+			version = 2,
+		},
+		inheritedIndex = 36,
+		inheritedObjectUUID = "c18b5971-4e12-8c61-b986-d2722297b075",
+		inheritedOverwrites = 
+		{
+			throttleTime = 0,
 		},
 	}, 
 	inheritedProfiles = 

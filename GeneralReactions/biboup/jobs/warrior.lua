@@ -4,6 +4,20 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Large Group Mitigation",
+			uuid = "ff8eb1dd-0303-2dd4-baed-c2c24ecff007",
+			version = 2,
+		},
+		inheritedIndex = 31,
+		inheritedObjectUUID = "601ea0eb-07b9-c813-9df9-5ce8b309c37f",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "Use Healing",
 			uuid = "3e8523a4-f90d-fdc7-9e93-71696a7ab298",
 			version = 2,
@@ -12,6 +26,7 @@ local tbl =
 		inheritedObjectUUID = "154bd976-b80d-c190-b644-5b5565a20b12",
 		inheritedOverwrites = 
 		{
+			enabled = false,
 		},
 	},
 	
@@ -238,6 +253,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
 							uuid = "3c10dd32-6d61-fa58-91a4-c7907807539a",
 							variableTogglesType = 3,
@@ -267,6 +283,7 @@ local tbl =
 									false,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
 							uuid = "674821b7-1e54-b974-aae0-fddce7689f21",
 							variableTogglesType = 3,
@@ -276,45 +293,7 @@ local tbl =
 				},
 				
 				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
-									true,
-								},
-								
-								{
-									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
-									false,
-								},
-								
-								{
-									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
-									true,
-								},
-								
-								{
-									"697ae424-bebc-b384-9c28-22d718f99368",
-									false,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
-							uuid = "50cd54e9-f389-4e4d-84bd-adbe0d5ab374",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				
-				{
-					position = 10,
+					position = 9,
 					type = "add",
 					value = 
 					{
@@ -344,17 +323,18 @@ local tbl =
 									false,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
 							uuid = "ed826376-b54e-94b9-ad19-465137c3ce6c",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 10,
+						inheritedIndex = 9,
 					},
 				},
 				
 				{
-					position = 11,
+					position = 10,
 					type = "add",
 					value = 
 					{
@@ -384,9 +364,55 @@ local tbl =
 									false,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
 							name = "Variable Blood 80% HP",
 							uuid = "6621ee12-6609-2483-bdc4-596eac159b37",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 10,
+					},
+				},
+				
+				{
+					position = 11,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"70a3c211-3db2-7bfb-a645-b7c12615b8fa",
+									true,
+								},
+								
+								{
+									"991ecbba-ff8d-abc8-87fd-1064c93152d7",
+									false,
+								},
+								
+								{
+									"0e3812f3-b498-36a8-a773-a9c0c0823f6f",
+									true,
+								},
+								
+								{
+									"697ae424-bebc-b384-9c28-22d718f99368",
+									false,
+								},
+								
+								{
+									"ac67c0e5-d6cd-623c-95e8-fa08c38c84b1",
+									false,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "50cd54e9-f389-4e4d-84bd-adbe0d5ab374",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -570,36 +596,21 @@ local tbl =
 				},
 				
 				{
+					position = 31,
 					type = "add",
 					value = 
 					{
 						data = 
 						{
-							actionCDValue = 1,
-							actionID = 7542,
+							actionCDValue = 84,
+							actionID = 40,
 							category = "Self",
 							conditionType = 4,
-							name = "IN CD : Bloodbath",
-							uuid = "a45c9d80-0bb6-15bc-b74b-b7de88cc8837",
+							name = "IN EARLY CD : Thrill",
+							uuid = "d3a8b771-387a-5bc6-a11a-1cc67059d9ff",
 							version = 2,
 						},
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 25751,
-							category = "Self",
-							conditionType = 4,
-							name = "IN CD : Bloodwhetting",
-							uuid = "f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
-							version = 2,
-						},
+						inheritedIndex = 31,
 					},
 				},
 				
@@ -638,6 +649,40 @@ local tbl =
 							version = 2,
 						},
 						inheritedIndex = 35,
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7542,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Bloodbath",
+							uuid = "a45c9d80-0bb6-15bc-b74b-b7de88cc8837",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25751,
+							category = "Self",
+							conditionType = 4,
+							name = "IN CD : Bloodwhetting",
+							uuid = "f9f68fc0-a3a2-56cd-94b4-85aeaef4d7f7",
+							version = 2,
+						},
 					},
 				},
 				
@@ -706,27 +751,7 @@ local tbl =
 						},
 					},
 				},
-				
-				{
-					position = 31,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 84,
-							actionID = 40,
-							category = "Self",
-							conditionType = 4,
-							name = "IN EARLY CD : Thrill",
-							uuid = "d3a8b771-387a-5bc6-a11a-1cc67059d9ff",
-							version = 2,
-						},
-						inheritedIndex = 31,
-					},
-				},
 			},
-			throttleTime = 1,
 		},
 	}, 
 	inheritedProfiles = 
