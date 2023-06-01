@@ -752,6 +752,7 @@ local tbl =
 					},
 				},
 			},
+			throttleTime = 0,
 		},
 	}, 
 	inheritedProfiles = 

@@ -61,6 +61,7 @@ local tbl =
 			uuid = "50b11078-cd69-19f1-ada4-28aac40ec765",
 			version = 2,
 		},
+		inheritedIndex = 31,
 		inheritedObjectUUID = "c76c2113-45ce-2787-aebf-de0cbd11bf74",
 		inheritedOverwrites = 
 		{
@@ -100,11 +101,6 @@ local tbl =
 								{
 									"1fc87018-9190-e1c5-a32a-03d9550f745a",
 									false,
-								},
-								
-								{
-									"80450b5a-ffdf-db97-81bf-0b2950db8fdc",
-									true,
 								},
 							},
 							gVar = "ACR_RikuDNC2_Hotbar_ShieldSamba",
@@ -222,11 +218,6 @@ local tbl =
 									"310806af-1392-0fb3-8a6c-cd16755a4c75",
 									true,
 								},
-								
-								{
-									"e9f4817a-1a8f-446f-8c25-f166db3abfe4",
-									true,
-								},
 							},
 							gVar = "ACR_RikuDNC2_Hotbar_CuringWaltz",
 							uuid = "fec92730-66c6-00d4-a3fb-5fad2f1ac684",
@@ -262,8 +253,9 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(75) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(75.0)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
 							hpValue = 90,
 							uuid = "310806af-1392-0fb3-8a6c-cd16755a4c75",

@@ -4,6 +4,20 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Auto Warden",
+			uuid = "ddc4bc39-5da6-b449-b853-f696245efc93",
+			version = 2,
+		},
+		inheritedIndex = 31,
+		inheritedObjectUUID = "5e29117f-ca56-4e20-9d47-95dfa2cdb39f",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "Auto Mitigation",
 			uuid = "55a22860-4de4-22f4-b113-c68629807c2f",
 			version = 2,
@@ -84,6 +98,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionLua = "return BiboupCore.Mitigations.IsPartyHpUnderThreshold(80.0)",
 							conditions = 
 							{
 								
@@ -97,9 +112,9 @@ local tbl =
 									false,
 								},
 							},
-							gVar = "ACR_TensorRequiem2_Hotbar_NaturesMinneTT",
-							targetType = "Detection Target",
+							gVar = "ACR_TensorRequiem2_Hotbar_NaturesMinne",
 							uuid = "4c03afc2-27bf-5a93-86fe-3492e5759cea",
+							variableIsHover = true,
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -150,10 +165,12 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(75.0) > 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(75.0)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
 							hpValue = 70,
+							name = "Party HP < 70",
 							partyTargetSubType = "Lowest HP",
 							uuid = "e58caa17-ae9b-87ea-92a7-c487d067d240",
 							version = 2,

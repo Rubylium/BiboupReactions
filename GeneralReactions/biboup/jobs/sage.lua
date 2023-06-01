@@ -559,7 +559,7 @@ local tbl =
 				},
 				
 				{
-					position = 17,
+					position = 13,
 					type = "add",
 					value = 
 					{
@@ -570,32 +570,28 @@ local tbl =
 							{
 								
 								{
-									"cc7edcd7-3b78-7a3e-88d7-c0be8d16d97b",
+									"e1629d08-3aa3-bded-9dc5-21aa116d2522",
 									true,
 								},
 								
 								{
-									"6bf83ef9-e6b2-a568-8554-452adaf36762",
+									"6f1004ce-93ae-1f5e-8860-37fcc2fd85de",
 									true,
 								},
 								
 								{
-									"d855d470-1b69-d696-8ad1-14ea8e49a06f",
-									false,
-								},
-								
-								{
-									"59dfbc40-ad6f-cb39-8dad-38e35429e3e8",
+									"39d37624-15b4-8609-b3d9-8080c97b28f6",
 									false,
 								},
 							},
-							gVar = "ACR_RikuSGE_Healbar_Pepsis",
-							targetType = "Detection Target",
-							uuid = "f22c324b-fbfd-f11c-a15b-1985f071e084",
+							gVar = "ACR_RikuSGE_Healbar_EukrasianDiagnosis",
+							targetType = "Main Tank",
+							uuid = "8b8239ad-f80f-3f4a-b322-435c57488095",
+							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 17,
+						inheritedIndex = 13,
 					},
 				},
 				
@@ -907,7 +903,7 @@ local tbl =
 								},
 								
 								{
-									"af4c4fa5-a5aa-357c-8863-514ed684985e",
+									"fe1a77d1-ce6c-55cf-aba4-eecdee2bfb07",
 									true,
 								},
 								
@@ -950,7 +946,7 @@ local tbl =
 								},
 								
 								{
-									"13d9d07f-27eb-67fa-95e4-6f59c5aae448",
+									"f4fe85a6-ab36-733b-937f-c867f5e0438d",
 									true,
 								},
 								
@@ -988,7 +984,7 @@ local tbl =
 								},
 								
 								{
-									"b04105a1-8644-74a4-8273-3a2163c600b1",
+									"1d262b6b-b84b-d6d4-9b6c-e47f65aefa37",
 									true,
 								},
 								
@@ -1006,43 +1002,6 @@ local tbl =
 							version = 2,
 						},
 						inheritedIndex = 28,
-					},
-				},
-				
-				{
-					position = 13,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"e1629d08-3aa3-bded-9dc5-21aa116d2522",
-									true,
-								},
-								
-								{
-									"6f1004ce-93ae-1f5e-8860-37fcc2fd85de",
-									true,
-								},
-								
-								{
-									"39d37624-15b4-8609-b3d9-8080c97b28f6",
-									false,
-								},
-							},
-							gVar = "ACR_RikuSGE_Healbar_EukrasianDiagnosis",
-							targetType = "Main Tank",
-							uuid = "8b8239ad-f80f-3f4a-b322-435c57488095",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 13,
 					},
 				},
 			},
@@ -1368,9 +1327,11 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 2,
-							hpValue = 95,
-							name = "IF party HP < 95%",
-							uuid = "329ea45f-f79d-eb52-bd8e-6a62c113da99",
+							hpValue = 30,
+							name = "IF TANK HP < 30%",
+							partyTargetSubType = "Lowest HP",
+							partyTargetType = "Tank",
+							uuid = "07c00150-9ceb-30a7-92c5-21d20f09f72e",
 							version = 2,
 						},
 						inheritedIndex = 50,
@@ -1384,12 +1345,13 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(95) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(95)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
-							hpValue = 90,
-							name = "IF party HP < 90%",
-							uuid = "6bf83ef9-e6b2-a568-8554-452adaf36762",
+							hpValue = 95,
+							name = "IF party HP < 95%",
+							uuid = "329ea45f-f79d-eb52-bd8e-6a62c113da99",
 							version = 2,
 						},
 						inheritedIndex = 51,
@@ -1403,12 +1365,13 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(90) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(90)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
-							hpValue = 80,
-							name = "IF party HP < 80%",
-							uuid = "93ed8700-f849-34d8-9d67-69834e9ff09d",
+							hpValue = 90,
+							name = "IF party HP < 90%",
+							uuid = "6bf83ef9-e6b2-a568-8554-452adaf36762",
 							version = 2,
 						},
 						inheritedIndex = 52,
@@ -1422,12 +1385,13 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(80) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(80)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
-							hpValue = 70,
-							name = "IF party HP < 70%",
-							uuid = "5ca0fa36-9077-3732-b89e-cc2a15733021",
+							hpValue = 80,
+							name = "IF party HP < 80%",
+							uuid = "93ed8700-f849-34d8-9d67-69834e9ff09d",
 							version = 2,
 						},
 						inheritedIndex = 53,
@@ -1441,12 +1405,13 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(70) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(70)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
-							hpValue = 60,
-							name = "IF party HP < 60%",
-							uuid = "65ab7791-7d39-d4e6-8016-15d8fd0588ef",
+							hpValue = 70,
+							name = "IF party HP < 70%",
+							uuid = "5ca0fa36-9077-3732-b89e-cc2a15733021",
 							version = 2,
 						},
 						inheritedIndex = 54,
@@ -1454,21 +1419,22 @@ local tbl =
 				},
 				
 				{
+					position = 55,
 					type = "add",
 					value = 
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "if BiboupCore.Mitigations.GetNumbersOfPlayersUnderThreshold(60) >= 3 then\n\t\treturn BiboupCore.Mitigations.IsPartyHpUnderThreshold(60)\nelse\n\t\treturn false\nend",
 							conditionType = 2,
-							hpValue = 30,
-							name = "IF TANK HP < 30%",
-							partyTargetSubType = "Lowest HP",
-							partyTargetType = "Tank",
-							uuid = "07c00150-9ceb-30a7-92c5-21d20f09f72e",
+							hpValue = 60,
+							name = "IF party HP < 60%",
+							uuid = "65ab7791-7d39-d4e6-8016-15d8fd0588ef",
 							version = 2,
 						},
+						inheritedIndex = 55,
 					},
 				},
 				
@@ -1535,8 +1501,9 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(90)",
 							conditionType = 2,
 							hpValue = 90,
 							name = "IF ANY HP < 90%",
@@ -1555,8 +1522,9 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(80)",
 							conditionType = 2,
 							hpValue = 80,
 							name = "IF ANY HP < 80%",
@@ -1575,8 +1543,9 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(70)",
 							conditionType = 2,
 							hpValue = 70,
 							name = "IF ANY HP < 70%",
@@ -1595,13 +1564,177 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Party",
+							category = "Lua",
 							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(60)",
 							conditionType = 2,
 							hpValue = 60,
 							name = "IF ANY HP < 60%",
 							partyTargetSubType = "Lowest HP",
 							uuid = "0fd60938-9b25-eb19-8bc5-4e73e4992fc4",
+							version = 2,
+						},
+						inheritedIndex = 59,
+					},
+				},
+				
+				{
+					position = 59,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Lua",
+							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(90)",
+							conditionType = 2,
+							hpValue = 90,
+							name = "IF ANY HP < 90%",
+							partyTargetSubType = "Lowest HP",
+							uuid = "7e061bbd-e5f4-ac51-ac6d-453a13524ab6",
+							version = 2,
+						},
+						inheritedIndex = 59,
+					},
+				},
+				
+				{
+					position = 64,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 30,
+							name = "IN RANGE < 30",
+							uuid = "c9e1ac4c-5873-7c17-8733-838dae5612d7",
+							version = 2,
+						},
+						inheritedIndex = 64,
+					},
+				},
+				
+				{
+					position = 65,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Filter",
+							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(90)",
+							conditionType = 2,
+							conditions = 
+							{
+								
+								{
+									"13d9d07f-27eb-67fa-95e4-6f59c5aae448",
+									true,
+								},
+							},
+							filterTargetSubtype = "Lowest HP",
+							filterTargetType = "Party",
+							hpValue = 90,
+							name = "F - IF ANY HP < 90%",
+							partyTargetSubType = "Lowest HP",
+							uuid = "f4fe85a6-ab36-733b-937f-c867f5e0438d",
+							version = 2,
+						},
+						inheritedIndex = 65,
+					},
+				},
+				
+				{
+					position = 60,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Filter",
+							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(80)",
+							conditionType = 2,
+							conditions = 
+							{
+								
+								{
+									"af4c4fa5-a5aa-357c-8863-514ed684985e",
+									true,
+								},
+							},
+							filterTargetSubtype = "Lowest HP",
+							filterTargetType = "Party",
+							hpValue = 80,
+							name = "F - IF ANY HP < 80%",
+							partyTargetSubType = "Lowest HP",
+							uuid = "fe1a77d1-ce6c-55cf-aba4-eecdee2bfb07",
+							version = 2,
+						},
+						inheritedIndex = 60,
+					},
+				},
+				
+				{
+					position = 61,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Filter",
+							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(70)",
+							conditionType = 2,
+							conditions = 
+							{
+								
+								{
+									"b04105a1-8644-74a4-8273-3a2163c600b1",
+									true,
+								},
+							},
+							filterTargetSubtype = "Lowest HP",
+							filterTargetType = "Party",
+							hpValue = 70,
+							name = "F - IF ANY HP < 70%",
+							partyTargetSubType = "Lowest HP",
+							uuid = "1d262b6b-b84b-d6d4-9b6c-e47f65aefa37",
+							version = 2,
+						},
+						inheritedIndex = 61,
+					},
+				},
+				
+				{
+					position = 59,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Filter",
+							comparator = 2,
+							conditionLua = "return BiboupCore.Mitigations.IsLowestPartyMemberUnderThreshold(60)",
+							conditionType = 2,
+							conditions = 
+							{
+								
+								{
+									"0fd60938-9b25-eb19-8bc5-4e73e4992fc4",
+									true,
+								},
+							},
+							filterTargetSubtype = "Lowest HP",
+							filterTargetType = "Party",
+							hpValue = 60,
+							name = "F - IF ANY HP < 60%",
+							partyTargetSubType = "Lowest HP",
+							uuid = "457d4b35-3859-98a9-898a-10b1fc2defae",
 							version = 2,
 						},
 						inheritedIndex = 59,
@@ -1626,20 +1759,21 @@ local tbl =
 				},
 				
 				{
-					position = 64,
+					position = 70,
 					type = "add",
 					value = 
 					{
 						data = 
 						{
-							category = "Party",
+							actionCDValue = 0.5,
+							actionID = 24299,
+							category = "Self",
 							conditionType = 4,
-							inRangeValue = 30,
-							name = "IN RANGE < 30",
-							uuid = "c9e1ac4c-5873-7c17-8733-838dae5612d7",
+							name = "IN EARLY CD : Ixochole",
+							uuid = "19119214-508a-dfd3-84f1-b802ab66cacf",
 							version = 2,
 						},
-						inheritedIndex = 64,
+						inheritedIndex = 70,
 					},
 				},
 				
@@ -1707,25 +1841,6 @@ local tbl =
 							uuid = "09416d8f-6ecb-4221-b265-1a5db68d51d4",
 							version = 2,
 						},
-					},
-				},
-				
-				{
-					position = 69,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							actionCDValue = 0.5,
-							actionID = 24299,
-							category = "Self",
-							conditionType = 4,
-							name = "IN EARLY CD : Ixochole",
-							uuid = "19119214-508a-dfd3-84f1-b802ab66cacf",
-							version = 2,
-						},
-						inheritedIndex = 69,
 					},
 				},
 				
@@ -1864,6 +1979,23 @@ local tbl =
 				},
 				
 				{
+					position = 83,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Lua",
+							conditionLua = "return false",
+							name = "empty",
+							uuid = "d108eee8-e927-e907-b713-8073c2b4ecc8",
+							version = 2,
+						},
+						inheritedIndex = 83,
+					},
+				},
+				
+				{
 					type = "add",
 					value = 
 					{
@@ -1931,23 +2063,6 @@ local tbl =
 				},
 				
 				{
-					position = 82,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return false",
-							name = "empty",
-							uuid = "d108eee8-e927-e907-b713-8073c2b4ecc8",
-							version = 2,
-						},
-						inheritedIndex = 82,
-					},
-				},
-				
-				{
 					type = "add",
 					value = 
 					{
@@ -1965,7 +2080,7 @@ local tbl =
 					},
 				},
 			},
-			throttleTime = 150,
+			throttleTime = 180,
 		},
 	},
 	
@@ -1976,7 +2091,7 @@ local tbl =
 			uuid = "93890bc8-65b6-7a5a-b643-c6cef9de0c7b",
 			version = 2,
 		},
-		inheritedIndex = 24,
+		inheritedIndex = 25,
 		inheritedObjectUUID = "c18b5971-4e12-8c61-b986-d2722297b075",
 		inheritedOverwrites = 
 		{
